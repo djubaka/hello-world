@@ -1,15 +1,6 @@
-//============================================================================
-// Name        : HelloGithub.cpp
-// Author      : 
-// Version     :
-// Copyright   : 
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
-#include <iostream>
-using namespace std;
+#include "printer.hpp"
 
 int main() {
-	cout << "Hello, World!" << endl; // prints Hello, World!
-	return 0;
+	Printer prettyPrinter;
+	prettyPrinter.doPrint("Habla");
 }
